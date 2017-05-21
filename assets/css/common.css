@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+}
+
+.blue-default {
+    color: #3498db;
+}
+
+.dark-slate-gray {
+    color: #49494e;
+}
+
+.yellowgreen {
+    color: #6ea43f;
+}
+
+.strong {
+    font-weight: bold;
+}
