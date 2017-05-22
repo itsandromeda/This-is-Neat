@@ -401,6 +401,67 @@
     .small-list:nth-child(3) .vertical-line {
         height: 404px;
     }
+    /*
+        ==========
+        FOOTER
+        ==========
+    */
+    footer {
+        background-color: #2a94e2;
+        color: #fff;
+        height: 562px;
+        padding: 3.5em 0 4em;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+    footer .row:first-child p {
+        font-weight: bold;
+        font-size: 1.3em;
+        margin-bottom: 1.1em;
+    }
+    footer .container i {
+        background-color: #1280c9;
+        font-size: 1.8em;
+        width: 2em;
+        height: 2em;
+        margin-right: 0.4em;
+        margin-bottom: 2.3em;
+        padding-top: 0.5em;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    footer .container i:last-child {
+        margin-right: 0;
+    }
+    footer .container i:hover {
+        background-color: #0e629a;
+    }
+    footer .row:last-child {
+        text-align: center;
+    }
+    footer li {
+        display: block !important;
+        margin-bottom: 1.8em;
+    }
+    footer li:last-child {
+        margin: 0;
+    }
+    footer a {
+        color: #fff;
+    }
+    footer a:hover {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    footer img[alt="Neat logo"] {
+        height: 60px;
+        margin-bottom: 1.4em;
+    }
     .hide-for-small {
         display: none;
     }
@@ -822,6 +883,64 @@
     .small-list:nth-child(3) .vertical-line {
         height: 404px;
     }
+    /*
+        ==========
+        FOOTER
+        ==========
+    */
+    footer {
+        background-color: #2a94e2;
+        color: #fff;
+        height: 415px;
+        padding: 5.5em 0 4em;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+    footer .row:first-child p {
+        font-weight: bold;
+        font-size: 1.75em;
+        margin-bottom: 1em;
+    }
+    footer .container i {
+        background-color: #1280c9;
+        font-size: 1.8em;
+        width: 2em;
+        height: 2em;
+        margin-right: 0.4em;
+        margin-bottom: 2.3em;
+        padding-top: 0.5em;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    footer .container i:last-child {
+        margin-right: 0;
+    }
+    footer .container i:hover {
+        background-color: #0e629a;
+    }
+    footer li {
+        margin-right: 0.9em;
+    }
+    footer li:last-child {
+        margin: 0;
+        margin-left: 3.5em;
+    }
+    footer a {
+        color: #fff;
+    }
+    footer a:hover {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    footer img[alt="Neat logo"] {
+        height: 60px;
+        margin-bottom: 1.2em;
+    }
 }
 
 @media (min-width: 980px) {
@@ -1118,7 +1237,7 @@
         top: -10em;
         left: 0;
         right: 0;
-        width: 85%;
+        width: 1200px;
         margin: auto;
     }
     #checklist .gallery:nth-child(3) {
@@ -1292,5 +1411,63 @@
     .small-list:nth-child(2) .vertical-line,
     .small-list:nth-child(3) .vertical-line {
         height: 229px;
+    }
+    /*
+        ==========
+        FOOTER
+        ==========
+    */
+    footer {
+        background-color: #2a94e2;
+        color: #fff;
+        height: 415px;
+        padding: 5.5em 0 4em;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+    footer .row:first-child p {
+        font-weight: bold;
+        font-size: 1.75em;
+        margin-bottom: 1em;
+    }
+    footer .container i {
+        background-color: #1280c9;
+        font-size: 1.8em;
+        width: 2em;
+        height: 2em;
+        margin-right: 0.4em;
+        margin-bottom: 2.3em;
+        padding-top: 0.5em;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    footer .container i:last-child {
+        margin-right: 0;
+    }
+    footer .container i:hover {
+        background-color: #0e629a;
+    }
+    footer li {
+        margin-right: 0.9em;
+    }
+    footer li:last-child {
+        margin: 0;
+        margin-left: 5.5em;
+    }
+    footer a {
+        color: #fff;
+    }
+    footer a:hover {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    footer img[alt="Neat logo"] {
+        height: 60px;
+        margin-bottom: 1.2em;
     }
 }
