@@ -137,26 +137,28 @@
         width: 100%;
         padding: 0;
     }
+    #our-promise .container .row {
+        width: 100%;
+    }
     #our-promise h1,
     #our-community h1 {
         font-size: 3.5em;
         margin-bottom: 0.3em;
     }
     .title p {
-        font-size: 1.2em;
+        font-size: 1.3em;
         line-height: 30px;
         width: 100%;
         margin: auto;
     }
     #our-promise .container:first-child .row:nth-child(2) {
         width: 100%;
-        padding-left: 1em;
     }
     .feature {
         border-top: 1px solid #eee;
         width: 100%;
         margin: 0;
-        padding: 6px 15px;
+        padding: 0.5em;
         overflow: auto;
         cursor: pointer;
     }
@@ -237,13 +239,167 @@
         line-height: 25px;
     }
     .testimonial:last-child {
-        margin-bottom: 5em;
+        margin-bottom: 10em;
     }
     .icon--rating-5 {
         background-size: 100%;
         width: 125px;
         height: 40px;
         margin: 0 auto 5%;
+    }
+    /*
+        ================
+        CHECKLIST
+        ================
+    */
+    #checklist {
+        background-color: #3498db;
+        position: relative;
+    }
+    #checklist .gallery:first-child,
+    #checklist .gallery:nth-child(2) {
+        position: absolute;
+        top: -9em;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
+    #checklist .gallery:first-child {
+        z-index: 5;
+    }
+    #checklist .gallery:nth-child(2) {
+        z-index: 4;
+    }
+    #checklist .gallery:first-child img:first-child {
+        position: absolute;
+        top: -10%;
+        left: -10%;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    #checklist .gallery:first-child img:nth-child(2) {
+        position: absolute;
+        top: -9%;
+        right: -10%;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    #checklist .gallery:first-child img:nth-child(3) {
+        position: absolute;
+        bottom: -8%;
+        left: -10%;
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    #checklist .gallery:first-child img:nth-child(4) {
+        position: absolute;
+        bottom: -9%;
+        right: -4%;
+        -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    #checklist .gallery:nth-child(2) img:first-child {
+        position: absolute;
+        top: 10%;
+        left: -13%;
+        -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
+    #checklist .gallery:nth-child(2) img:nth-child(2) {
+        position: absolute;
+        top: -16%;
+        right: 0;
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    #checklist .gallery:nth-child(2) img:nth-child(3) {
+        position: absolute;
+        bottom: 0;
+        left: -12%;
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    #checklist .gallery:nth-child(2) img:nth-child(4) {
+        position: absolute;
+        bottom: 0;
+        right: -16%;
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    #checklist .container {
+        width: 90%;
+        padding: 0;
+    }
+    #checklist .container .row:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    #checklist h1 {
+        font-size: 3.4em;
+        width: 80%;
+        margin: 3em auto 0.2em;
+    }
+    #checklist .title {
+        margin-bottom: 2em;
+    }
+    .list {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 100%;
+        height: 900px;
+        margin-bottom: 2em;
+        padding: 0;
+        padding-top: 0.5em;
+    }
+    .checklist {
+        width: 100%;
+        padding: 0;
+    }
+    .checklist li {
+        border-top: 1px solid #eee;
+        padding: 0;
+        padding: 1.1em 3.5em;
+        display: flex;
+        align-items: center;
+    }
+    .icon--tick {
+        background-position: center;
+        padding: 1em;
+        position: relative;
+        float: left;
+        left: -2em;
+    }
+    .vertical-line {
+        position: absolute;
+        left: 4em;
+        border-left: 1px solid #ecbbb6;
+    }
+    .long-list:nth-child(1) .vertical-line {
+        height: 803.5px;
+    }
+    .long-list:nth-child(2) .vertical-line,
+    .long-list:nth-child(3) .vertical-line {
+        height: 854px;
+    }
+    .small-list {
+        height: 450px;
+    }
+    .small-list:nth-child(1) .vertical-line,
+    .small-list:nth-child(2) .vertical-line,
+    .small-list:nth-child(3) .vertical-line {
+        height: 404px;
     }
     .hide-for-small {
         display: none;
@@ -501,13 +657,170 @@
         line-height: 25px;
     }
     .testimonial:last-child {
-        margin-bottom: 5em;
+        margin-bottom: 10em;
     }
     .icon--rating-5 {
         background-size: 100%;
         width: 125px;
         height: 40px;
         margin: 0 auto 5%;
+    }
+    /*
+        ================
+        CHECKLIST
+        ================
+    */
+    #checklist {
+        background-color: #3498db;
+        position: relative;
+    }
+    #checklist .gallery img {
+        height: 150px;
+    }
+    #checklist .gallery:nth-child(3),
+    #checklist .gallery:nth-child(4) {
+        position: absolute;
+        top: -9em;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
+    #checklist .gallery:nth-child(3) {
+        z-index: 5;
+    }
+    #checklist .gallery:nth-child(4) {
+        z-index: 4;
+    }
+    #checklist .gallery:nth-child(3) img:first-child {
+        position: absolute;
+        top: -10%;
+        left: -10%;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(2) {
+        position: absolute;
+        top: -9%;
+        right: -10%;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(3) {
+        position: absolute;
+        bottom: -8%;
+        left: -10%;
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(4) {
+        position: absolute;
+        bottom: -9%;
+        right: -4%;
+        -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    #checklist .gallery:nth-child(4) img:first-child {
+        position: absolute;
+        top: 10%;
+        left: -13%;
+        -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(2) {
+        position: absolute;
+        top: -16%;
+        right: 0;
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(3) {
+        position: absolute;
+        bottom: 0;
+        left: -12%;
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(4) {
+        position: absolute;
+        bottom: 0;
+        right: -16%;
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    #checklist .container {
+        width: 95%;
+        padding: 0;
+    }
+    #checklist .container .row:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    #checklist h1 {
+        font-size: 3.4em;
+        width: 80%;
+        margin: 3em auto 0.2em;
+    }
+    #checklist .title {
+        margin-bottom: 2em;
+    }
+    .list {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 100%;
+        height: 900px;
+        margin-bottom: 2em;
+        padding: 0;
+        padding-top: 0.5em;
+    }
+    .checklist {
+        width: 100%;
+        padding: 0;
+    }
+    .checklist li {
+        border-top: 1px solid #eee;
+        padding: 0;
+        padding: 1.1em 3.5em;
+        display: flex;
+        align-items: center;
+    }
+    .icon--tick {
+        background-position: center;
+        padding: 1em;
+        position: relative;
+        float: left;
+        left: -2em;
+    }
+    .vertical-line {
+        position: absolute;
+        left: 4em;
+        border-left: 1px solid #ecbbb6;
+    }
+    .long-list:nth-child(1) .vertical-line {
+        height: 824px;
+    }
+    .long-list:nth-child(2) .vertical-line,
+    .long-list:nth-child(3) .vertical-line {
+        height: 854px;
+    }
+    .small-list {
+        height: 450px;
+    }
+    .small-list:nth-child(1) .vertical-line,
+    .small-list:nth-child(2) .vertical-line,
+    .small-list:nth-child(3) .vertical-line {
+        height: 404px;
     }
 }
 
@@ -681,8 +994,7 @@
         margin: 6em 0 2em;
         padding: 0 20px;
     }
-    #our-promise h1,
-    #our-community h1 {
+    #our-promise h1 {
         font-size: 4.5em;
         margin-bottom: 0.3em;
     }
@@ -748,6 +1060,9 @@
     #our-community .title {
         margin-bottom: 5em;
     }
+    #our-community h1 {
+        font-size: 6em;
+    }
     #our-community .testimonial div:last-child {
         text-align: left;
     }
@@ -775,7 +1090,7 @@
         line-height: 35px;
     }
     .testimonial:last-child {
-        margin-bottom: 5em;
+        margin-bottom: 9.5em;
     }
     .icon--rating-5 {
         background-size: 100%;
@@ -783,5 +1098,199 @@
         height: 40px;
         margin-bottom: 1em;
         float: left;
+    }
+    /*
+        ================
+        CHECKLIST
+        ================
+    */
+    #checklist {
+        background-color: #3498db;
+        position: relative;
+        padding: 0;
+    }
+    #checklist .gallery img {
+        height: 250px;
+    }
+    #checklist .gallery:nth-child(3),
+    #checklist .gallery:nth-child(4) {
+        position: absolute;
+        top: -10em;
+        left: 0;
+        right: 0;
+        width: 85%;
+        margin: auto;
+    }
+    #checklist .gallery:nth-child(3) {
+        z-index: 5;
+    }
+    #checklist .gallery:nth-child(4) {
+        z-index: 4;
+    }
+    #checklist .gallery:nth-child(3) img:first-child {
+        position: absolute;
+        top: 0;
+        left: -1em;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(3) img:first-child:hover,
+    #checklist .gallery:nth-child(3) img:nth-child(5):hover,
+    #checklist .gallery:nth-child(4) img:nth-child(3):hover {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: 15.5em;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(2):hover,
+    #checklist .gallery:nth-child(3) img:nth-child(4):hover,
+    #checklist .gallery:nth-child(4) img:nth-child(4):hover {
+        -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(3) {
+        position: absolute;
+        top: 0;
+        left: 32.5em;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(4) img:first-child:hover,
+    #checklist .gallery:nth-child(3) img:nth-child(3):hover,
+    #checklist .gallery:nth-child(4) img:nth-child(2):hover {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(4) {
+        position: absolute;
+        top: 0;
+        right: 15em;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(3) img:nth-child(5) {
+        position: absolute;
+        top: 0;
+        right: -1em;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(4) img:first-child {
+        position: absolute;
+        top: 0;
+        left: 30em;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: 4em;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(3) {
+        position: absolute;
+        top: 0;
+        left: 50em;
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        transition: 0.4s;
+    }
+    #checklist .gallery:nth-child(4) img:nth-child(4) {
+        position: absolute;
+        top: 0;
+        right: -1em;
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transition: 0.4s;
+    }
+    #checklist .container {
+        width: 92%;
+    }
+    #checklist .container .row:nth-child(2) {
+        flex-direction: row;
+        margin-bottom: 4em;
+    }
+    #checklist .title {
+        margin-bottom: 2.5em;
+    }
+    #checklist h1 {
+        font-size: 4.4em;
+        margin-top: 3em;
+    }
+    #checklist .title p {
+        width: 65%;
+        font-size: 1.8em;
+        margin-bottom: 2em;
+    }
+    .list {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 30.9%;
+    }
+    .long-list {
+        height: 710px;
+        margin: 0 1em 1em;
+    }
+    .checklist {
+        padding: 0;
+    }
+    .checklist li {
+        border-top: 1px solid #eee;
+        padding: 0;
+        padding: 1em 5em;
+    }
+    .icon--tick {
+        background-position: center left;
+        padding: 0.8em;
+        position: relative;
+        left: -3.5em;
+    }
+    .vertical-line {
+        position: absolute;
+        left: 4em;
+        border-left: 1px solid #ecbbb6;
+        height: 690px;
+    }
+    .long-list:nth-child(1) .vertical-line {
+        height: 614px;
+    }
+    .long-list:nth-child(2) .vertical-line,
+    .long-list:nth-child(3) .vertical-line {
+        height: 664px;
+    }
+    .small-list {
+        height: 275px;
+        margin: 0 1em 1em;
+    }
+    .small-list:nth-child(1) .vertical-line,
+    .small-list:nth-child(2) .vertical-line,
+    .small-list:nth-child(3) .vertical-line {
+        height: 229px;
     }
 }
