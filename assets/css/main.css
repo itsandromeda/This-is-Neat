@@ -7,84 +7,286 @@
     font-family: 'Proxima Nova Soft Regular', sans-serif;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 460px) {
+    header {
+        font-size: 1.2em;
+        color: #fff;
+        height: 480px;
+    }
+    header .icon--hero-bg {
+        background-size: 1600px;
+        background-position: top right;
+        height: 93%;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .quote-container div {
+        position: relative;
+        margin: auto;
+        top: 110px;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+    .quote-container img {
+        height: 3.5em;
+        margin-bottom: 0.5em;
+    }
+    .quote-container p {
+        font-size: 1.05em;
+        width: 80%;
+        margin: auto;
+    }
+    .quote-btn {
+        background-color: #3498DB;
+        font-size: 1.15em;
+        border-radius: 30px;
+        margin-top: 1.5em;
+        padding: 10px 50px;
+        transition: 0.3s;
+    }
+    header .icon--hero-park {
+        background-size: 11em;
+        background-position: left bottom;
+        position: absolute;
+        left: -9em;
+        bottom: 9.5em;
+        padding: 7em 5.6em;
+    }
+    header .icon--hero {
+        background-size: 1550px;
+        background-position: top center;
+        position: absolute;
+        top: 0;
+        padding: 14.5em 50%;
+    }
+    header .icon--hero-bench {
+        background-size: 100px;
+        background-position: left bottom;
+        position: absolute;
+        right: 0;
+        bottom: 10em;
+        padding: 5% 5%;
+    }
+    .hide-for-small {
+        display: none;
+    }
 }
 
-header {
-    font-size: 1.2em;
-    color: #fff;
-    height: 436px;
-    /*524*/
+@media (min-width: 460px) {
+    header {
+        font-size: 1.2em;
+        color: #fff;
+        height: 605px;
+    }
+    header .wrapper {
+        position: relative;
+        height: 100%;
+    }
+    header .icon--hero-bg {
+        background-size: 2000px;
+        background-position: top right;
+    }
+    .main-navigation .row {
+        display: flex;
+        align-items: baseline;
+        margin-top: 1.5em;
+    }
+    .main-navigation img {
+        height: 45px;
+    }
+    .main-navigation .col-lg-8 {
+        display: none;
+    }
+    .main-navigation a {
+        font-size: 0.95em;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .main-navigation .col-lg-3 {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 5;
+    }
+    .main-navigation .fa-user-o {
+        font-family: 0.01em;
+        text-align: center;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        margin-right: 5px;
+        padding-top: 6px;
+        width: 32px;
+        height: 32px;
+    }
+    .main-navigation a:hover {
+        color: #3498DB;
+        text-decoration: none;
+    }
+    .quote-container div {
+        position: relative;
+        top: 65px;
+        z-index: 5;
+    }
+    .quote-container h2 {
+        font-size: 3.9em;
+        width: 450px;
+        margin: 0.2em auto;
+    }
+    .quote-container p {
+        font-size: 1.45em;
+    }
+    .quote-btn {
+        background-color: #3498DB;
+        font-size: 1.4em;
+        font-weight: bold;
+        border-radius: 30px;
+        margin-top: 1em;
+        padding: 12px 50px;
+        transition: 0.3s;
+    }
+    .quote-btn:hover {
+        background-color: #1280c9;
+    }
+    header .icon--hero-park {
+        background-size: 15em;
+        background-position: left bottom;
+        position: absolute;
+        left: -6%;
+        bottom: -4.6%;
+        padding: 9em 7.6em;
+    }
+    header .icon--hero {
+        background-size: 2050px;
+        background-position: top center;
+        position: absolute;
+        top: 0;
+        padding: 19.5em 50%;
+    }
+    header .icon--hero-bench {
+        background-size: 150px;
+        background-position: right bottom;
+        position: absolute;
+        right: 12%;
+        bottom: -4.2%;
+        padding: 5em 5em;
+    }
+    .hide-for-medium {
+        display: none !important;
+    }
 }
 
-header .wrapper {
-    position: relative;
-    height: 100%;
-}
-
-header .icon--hero-bg {
-    background-size: 1500px;
-    background-position: top center;
-    height: 100%;
-}
-
-.quote-container {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    top: 7.2em;
-    left: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.quote-container h2 {
-    width: 52.5%;
-    font-size: 2.77em;
-    margin: 0.2em auto;
-}
-
-.quote-container p {
-    font-size: 1.05em;
-}
-
-.quote-btn {
-    background-color: #3498DB;
-    font-size: 1.09em;
-    border-radius: 30px;
-    margin-top: 1.5em;
-    padding: 7.5px 31.5px;
-    transition: 0.3s;
-}
-
-.quote-btn:hover {
-    background-color: #1280c9;
-}
-
-header .icon--hero-park {
-    background-size: 11.1em;
-    background-position: left bottom;
-    position: absolute;
-    left: 11.4%;
-    bottom: -4.6%;
-    padding: 7em 5.6em;
-}
-
-header .icon--hero {
-    background-size: 1500px;
-    background-position: top center;
-    position: absolute;
-    top: 0;
-    padding: 15em 50%;
-}
-
-header .icon--hero-bench {
-    background-size: 107px;
-    background-position: right bottom;
-    position: absolute;
-    right: 20.1%;
-    bottom: -4.2%;
-    padding: 3.5% 7.2%;
+@media (min-width: 980px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        font-size: 1.2em;
+        color: #fff;
+        height: 605px;
+    }
+    header .wrapper {
+        position: relative;
+        height: 100%;
+    }
+    header .icon--hero-bg {
+        background-size: 2000px;
+        background-position: top center;
+    }
+    .main-navigation .row {
+        display: flex;
+        align-items: baseline;
+        margin-top: 1.5em;
+    }
+    .main-navigation img {
+        height: 45px;
+    }
+    .main-navigation .col-lg-8 {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 3em;
+        z-index: 5;
+    }
+    .main-navigation .col-lg-8 li {
+        margin: 0 0.5em;
+        padding: 0;
+        cursor: pointer;
+    }
+    .main-navigation .col-lg-8 li:first-child {
+        margin-left: 0;
+    }
+    .main-navigation a {
+        font-size: 0.95em;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .main-navigation .col-lg-3 {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 5;
+    }
+    .main-navigation .fa-user-o {
+        font-family: 0.01em;
+        text-align: center;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        margin-right: 5px;
+        padding-top: 6px;
+        width: 32px;
+        height: 32px;
+    }
+    .main-navigation a:hover {
+        color: #3498DB;
+        text-decoration: none;
+    }
+    header .icon--hero-park {
+        background-size: 15em;
+        background-position: left bottom;
+        position: absolute;
+        left: 11.4%;
+        bottom: -4.6%;
+        padding: 9em 7.6em;
+    }
+    header .icon--hero {
+        background-size: 2100px;
+        background-position: top center;
+        position: absolute;
+        top: 0;
+        padding: 19.5em 50%;
+    }
+    header .icon--hero-bench {
+        background-size: 150px;
+        background-position: right bottom;
+        position: absolute;
+        right: 20.1%;
+        bottom: -4.2%;
+        padding: 3.5% 7.2%;
+    }
+    .quote-container div {
+        position: relative;
+        top: 100px;
+    }
+    .quote-container h2 {
+        font-size: 3.9em;
+        width: 100%;
+        margin: 0.2em auto;
+    }
+    .quote-container p {
+        font-size: 1.45em;
+    }
+    .quote-btn {
+        background-color: #3498DB;
+        font-size: 1.45em;
+        font-weight: bold;
+        border-radius: 30px;
+        margin-top: 1.7em;
+        padding: 12px 50px;
+        transition: 0.3s;
+    }
+    .quote-btn:hover {
+        background-color: #1280c9;
+    }
 }
