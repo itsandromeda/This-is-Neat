@@ -122,6 +122,78 @@
         font-size: 1em;
         line-height: 23px;
     }
+    /*
+        ================
+        OUR PROMISE
+        ================
+    */
+    #our-promise .title {
+        margin: 2em 0 2em;
+        padding: 0 1.5em;
+    }
+    #our-promise .container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    #our-promise h1,
+    #our-community h1 {
+        font-size: 3.5em;
+        margin-bottom: 0.3em;
+    }
+    .title p {
+        font-size: 1.2em;
+        line-height: 30px;
+        width: 100%;
+        margin: auto;
+    }
+    #our-promise .container:first-child .row:nth-child(2) {
+        width: 100%;
+        padding-left: 1em;
+    }
+    .feature {
+        border-top: 1px solid #eee;
+        width: 100%;
+        margin: 0;
+        padding: 6px 15px;
+        overflow: auto;
+        cursor: pointer;
+    }
+    .feature h3 {
+        font-size: 1em;
+        display: inline-block;
+        position: relative;
+        top: -2px;
+    }
+    .feature-desc {
+        font-size: 1.05em;
+        padding: 0 30px 5px;
+    }
+    .icon--feature-support,
+    .icon--feature-professional,
+    .icon--feature-insurance,
+    .icon--feature-flexibility,
+    .icon--feature-transparency,
+    .icon--feature-eco {
+        background-size: contain;
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 2.5%;
+    }
+    .icon--arrow-down {
+        float: right;
+        background-size: contain;
+        position: relative;
+        top: 10px;
+        right: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .flip {
+        transform: rotateZ(180deg);
+    }
     .hide-for-small {
         display: none;
     }
@@ -274,6 +346,66 @@
     #how-it-works p {
         font-size: 1.29em;
         line-height: 38px;
+    }
+    /*
+        ================
+        OUR PROMISE
+        ================
+    */
+    #our-promise {
+        background-color: #fff;
+    }
+    #our-promise .title {
+        margin: 6em 0 2em;
+        padding: 0 20px;
+    }
+    #our-promise h1,
+    #our-community h1 {
+        font-size: 4.5em;
+        margin-bottom: 0.3em;
+    }
+    .title p {
+        width: 100%;
+        margin: auto;
+        font-size: 1.6em;
+        line-height: 35px;
+    }
+    #our-promise .container {
+        display: flex;
+        width: 80%;
+        padding: 0;
+    }
+    #our-promise .container:nth-child(2) {
+        width: 100%;
+        margin-bottom: 6em;
+    }
+    .feature {
+        border: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .icon--feature-support,
+    .icon--feature-professional,
+    .icon--feature-insurance,
+    .icon--feature-flexibility,
+    .icon--feature-transparency,
+    .icon--feature-eco {
+        background-size: contain;
+        width: 70px;
+        height: 70px;
+    }
+    .feature h3 {
+        font-size: 1.25em;
+        position: relative;
+        top: -2px;
+    }
+    .feature-desc {
+        font-size: 1em;
+        text-align: center;
+        line-height: 23px;
     }
 }
 
@@ -434,5 +566,66 @@
     #how-it-works p {
         font-size: 1.29em;
         line-height: 35px;
+    }
+    /*
+        ================
+        OUR PROMISE
+        ================
+    */
+    #our-promise {
+        background-color: #fff;
+    }
+    #our-promise .title {
+        margin: 6em 0 2em;
+        padding: 0 20px;
+    }
+    #our-promise h1,
+    #our-community h1 {
+        font-size: 4.5em;
+        margin-bottom: 0.3em;
+    }
+    .title p {
+        width: 55%;
+        margin: auto;
+        font-size: 1.6em;
+        line-height: 35px;
+    }
+    #our-promise .container {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 0;
+    }
+    #our-promise .container:nth-child(2) {
+        width: 100%;
+        margin-bottom: 6em;
+    }
+    .feature {
+        border: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .icon--feature-support,
+    .icon--feature-professional,
+    .icon--feature-insurance,
+    .icon--feature-flexibility,
+    .icon--feature-transparency,
+    .icon--feature-eco {
+        background-size: contain;
+        width: 70px;
+        height: 70px;
+    }
+    .feature h3 {
+        font-size: 1.25em;
+        position: relative;
+        top: -2px;
+    }
+    .feature-desc {
+        font-size: 1em;
+        text-align: center;
+        line-height: 23px;
     }
 }
