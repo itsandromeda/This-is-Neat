@@ -69,6 +69,59 @@
         bottom: 10em;
         padding: 5% 5%;
     }
+    /*
+        ================
+        HOW IT WORKS
+        ================
+    */
+    #how-it-works {
+        background-color: #f9f9f9;
+        position: relative;
+        top: -35px;
+        z-index: 1;
+    }
+    .imgs {
+        z-index: 4;
+    }
+    #how-it-works .container {
+        width: 90%;
+        padding: 0;
+    }
+    .yellow-circle {
+        background-color: #ffcc66;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        margin: auto;
+    }
+    .icon--step-bond-guarantee,
+    .icon--step-quote,
+    .icon--step-payment {
+        background-size: 65%;
+        background-position: center;
+        z-index: 5;
+    }
+    #how-it-works .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 5em;
+        text-align: center;
+    }
+    #how-it-works .row:nth-child(2) {
+        flex-direction: column;
+    }
+    #how-it-works .row:last-child {
+        margin-bottom: 4em;
+    }
+    #how-it-works h2 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+    }
+    #how-it-works p {
+        font-size: 1em;
+        line-height: 23px;
+    }
     .hide-for-small {
         display: none;
     }
@@ -174,6 +227,53 @@
     }
     .hide-for-medium {
         display: none !important;
+    }
+    /*
+        ================
+        HOW IT WORKS
+        ================
+    */
+    #how-it-works {
+        background-color: #f9f9f9;
+        z-index: 1;
+    }
+    .imgs {
+        z-index: 4;
+    }
+    #how-it-works .container {
+        width: 90%;
+        padding: 4.5em 0;
+    }
+    .yellow-circle {
+        background-color: #ffcc66;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        margin: auto;
+    }
+    .icon--step-bond-guarantee,
+    .icon--step-quote,
+    .icon--step-payment {
+        background-size: 65%;
+        background-position: center;
+        z-index: 5;
+    }
+    #how-it-works .row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2em;
+    }
+    #how-it-works .row:last-child {
+        margin-bottom: 3.2%;
+    }
+    #how-it-works h2 {
+        font-size: 3.3em;
+        margin-bottom: 0.5em;
+    }
+    #how-it-works p {
+        font-size: 1.29em;
+        line-height: 38px;
     }
 }
 
@@ -288,5 +388,51 @@
     }
     .quote-btn:hover {
         background-color: #1280c9;
+    }
+    /*
+        ================
+        HOW IT WORKS
+        ================
+    */
+    #how-it-works {
+        background-color: #f9f9f9;
+        z-index: 1;
+    }
+    .imgs {
+        z-index: 4;
+    }
+    #how-it-works .container {
+        width: 70%;
+        padding: 4.5em 0;
+    }
+    .yellow-circle {
+        background-color: #ffcc66;
+        border-radius: 50%;
+        width: 275px;
+        height: 275px;
+        margin: auto;
+    }
+    .icon--step-bond-guarantee,
+    .icon--step-quote,
+    .icon--step-payment {
+        background-size: 65%;
+        background-position: center;
+        z-index: 5;
+    }
+    #how-it-works .row {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+    }
+    #how-it-works .row:last-child {
+        margin-bottom: 3.2%;
+    }
+    #how-it-works h2 {
+        font-size: 3.3em;
+        margin-bottom: 0.5em;
+    }
+    #how-it-works p {
+        font-size: 1.29em;
+        line-height: 35px;
     }
 }

@@ -1,3 +1,7 @@
+section .container {
+    width: 70%;
+}
+
 .blue-default {
     color: #3498db;
 }
