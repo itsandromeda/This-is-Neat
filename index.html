@@ -18,6 +18,10 @@
 
 <body>
     <header>
+        <div class="hide-for-small alert-offer">
+            <p>This week only, use code <strong>BONDBACK15</strong> to get 15% off your end of lease cleaning. Expires <strong>21/05/2017</strong>.</p>
+            <button class="close close-btn">&times;</button>
+        </div>
         <div class="wrapper imgs icon--hero-bg">
             <nav class="main-navigation container">
                 <div class="row">
@@ -47,7 +51,7 @@
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <p class="strong">The simplest way to get your bond back. <i>Guaranteed.</i></p>
-                        <button type="button" class="btn btn-primary quote-btn">Get your quote</button>
+                        <a href="#quote" class="btn btn-primary quote-btn">Get your quote</a>
                     </div>
                 </div>
             </div>
@@ -55,6 +59,11 @@
             <div class="imgs icon--hero-park"></div>
             <div class="imgs icon--hero-bench"></div>
         </div>
+        <button id="contact-us">
+            <span>?</span>
+            <i class="fa fa-comment"></i>
+            <span>Contact us!</span>
+        </button>
     </header>
     <section id="how-it-works">
         <div class="container">
@@ -402,10 +411,14 @@
         </div>
     </section>
     <section id="quote">
+        <div class="hide-for-medium title text-center col-sm-12">
+            <h1 class="blue-default strong">Get Your Quote</h1>
+            <p class="dark-slate-gray strong">Let us know the details of your home and we'll provide you with an instant quote.</p>
+        </div>
         <div class="container wrapper">
-            <div class="row">
+            <div class="hide-for-small row">
                 <div class="col-lg-12">
-                    <div class="title text-center col-12">
+                    <div class="title text-center">
                         <h1 class="blue-default strong">Get Your Quote</h1>
                         <p class="dark-slate-gray strong">Let us know the details of your home and we'll provide you with an instant quote.</p>
                     </div>
@@ -414,32 +427,35 @@
             <div class="dark-slate-gray row">
                 <form>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
                             <h4 class="blue-default strong">Property Type</h4>
                             <p>All properties must be <strong>unfurnished.</strong></p>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="col-lg-4">
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="home-type col-sm-12 col-md-4 col-lg-4">
                                 <div class="icon--property-studio"></div>
                                 <span>Studio</span>
+                                <i class="hide-for-medium fa fa-info"></i>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="home-type col-sm-12 col-md-4 col-lg-4">
                                 <div class="icon--property-apartment"></div>
                                 <span>Apartment</span>
+                                <i class="hide-for-medium fa fa-info"></i>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="home-type col-sm-12 col-md-4 col-lg-4">
                                 <div class="icon--property-house"></div>
                                 <span>House</span>
+                                <i class="hide-for-medium fa fa-info"></i>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
                             <h4 class="blue-default strong">Rooms</h4>
                             <p>We base our quotes on <a href="#">standard room specifications</a>.</p>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="col-lg-4">
+                        <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Bedroom</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -447,7 +463,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Living Room</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -455,7 +471,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Dining Room</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -463,7 +479,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Kitchen</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -471,7 +487,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Bathroom</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -479,7 +495,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
                                 <span>Study</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -490,11 +506,11 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-lg-4">
                             <h4 class="blue-default strong">Amenities</h4>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="col-lg-4">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="col-md-4 col-lg-4">
                                 <span>Laundry</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -502,7 +518,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-md-4 col-lg-4">
                                 <span>Balcony</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -510,7 +526,7 @@
                                     <button class="col-lg-4">+</button>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-md-4 col-lg-4">
                                 <span>Garage</span>
                                 <div class="number-box">
                                     <button class="col-lg-4">-</button>
@@ -521,44 +537,49 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-md-4 col-lg-4">
                             <h4 class="blue-default strong">Extras</h4>
                             <p class="dark-slate-gray">Although these requests are optional, you should still check with your agent about the requirements of your home.</p>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="extras-box col-lg-12">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="extras-box col-md-12 col-lg-12">
                                 <div class="extras-top">
                                     <input type='checkbox' name='carpet' value='carpet' id="carpet">
                                     <label for="carpet">Carpet steam clean</label>
+                                    <i class="hide-for-medium fa fa-info"></i>
                                 </div>
                             </div>
-                            <div class="extras-box col-lg-12">
+                            <div class="extras-box col-md-12 col-lg-12">
                                 <div class="extras-top">
                                     <input type='checkbox' name='wall-wash' value='wall-wash' id="wall-wash">
                                     <label for="wall-wash">Wall wash <i class="blue-default">(full wash or spot clean)</i></label>
+                                    <i class="hide-for-medium fa fa-info"></i>
                                 </div>
                             </div>
-                            <div class="extras-box col-lg-12">
+                            <div class="extras-box col-md-12 col-lg-12">
                                 <div class="extras-top">
                                     <input type='checkbox' name='window-wash' value='window-wash' id="window-wash">
                                     <label for="window-wash">Window wash <i class="blue-default">(external or floor-to-ceiling)</i></label>
+                                    <i class="hide-for-medium fa fa-info"></i>
                                 </div>
                             </div>
-                            <div class="extras-box col-lg-12">
+                            <div class="extras-box col-md-12 col-lg-12">
                                 <div class="extras-top">
                                     <input type='checkbox' name='deep-clean' value='deep-clean' id="deep-clean">
                                     <label for="deep-clean">Blind/shutters deep clean</label>
+                                    <i class="hide-for-medium fa fa-info"></i>
                                 </div>
                             </div>
-                            <div class="extras-box col-lg-12">
+                            <div class="extras-box col-md-12 col-lg-12">
                                 <div class="extras-top">
                                     <input type='checkbox' name='appliance' value='appliance' id="appliance">
                                     <label for="appliance">Appliance deep clean</label>
+                                    <i class="hide-for-medium fa fa-info"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-success">Get quote</button>
+                    <button id="get-quote-btn" class="btn btn-success">Get quote</button>
                 </form>
             </div>
         </div>
