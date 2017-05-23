@@ -1519,6 +1519,8 @@
     */
     #how-it-works {
         background-color: #f9f9f9;
+        position: relative;
+        top: 35px;
         z-index: 1;
     }
     .imgs {
@@ -1565,6 +1567,8 @@
     */
     #our-promise {
         background-color: #fff;
+        position: relative;
+        top: 35px;
     }
     #our-promise .title {
         margin: 6em 0 2em;
@@ -1626,6 +1630,8 @@
     #our-community,
     #checklist {
         background-color: #75b9e7;
+        position: relative;
+        top: 35px;
         color: #fff;
         padding: 50px 8px;
     }
@@ -1683,6 +1689,7 @@
     #checklist {
         background-color: #3498db;
         position: relative;
+        top: 35px;
         padding: 0;
     }
     #checklist .gallery img {
@@ -1876,6 +1883,8 @@
     */
     #quote {
         background-color: #eee;
+        position: relative;
+        top: 35px;
         padding: 6em 10em;
     }
     #quote .wrapper {
@@ -2019,6 +2028,8 @@
     footer {
         background-color: #2a94e2;
         color: #fff;
+        position: relative;
+        top: 35px;
         height: 415px;
         padding: 5.5em 0 4em;
     }
