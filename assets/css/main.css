@@ -595,6 +595,31 @@
         left: 2em;
         cursor: pointer;
     }
+    .extras-box label {
+        position: relative;
+        top: 0.6em;
+        left: 2em;
+        cursor: pointer;
+    }
+    .appliance {
+        height: auto;
+        margin-bottom: 0.5em;
+    }
+    .appliance label {
+        position: relative;
+        top: 1px;
+    }
+    .appliance input[type=checkbox]:before {
+        content: "";
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        cursor: pointer;
+        float: left;
+    }
     #get-quote-btn {
         font-size: 1.2em;
         width: 100%;
@@ -2009,6 +2034,25 @@
         top: 0.6em;
         left: 2em;
         cursor: pointer;
+    }
+    .appliance {
+        height: auto;
+        margin-bottom: 0.5em;
+    }
+    .appliance label {
+        position: relative;
+        top: 1px;
+    }
+    .appliance input[type=checkbox]:before {
+        content: "";
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        cursor: pointer;
+        float: left;
     }
     #get-quote-btn {
         font-size: 1.2em;

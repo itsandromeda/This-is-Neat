@@ -543,38 +543,114 @@
                         </div>
                         <div class="col-md-8 col-lg-8">
                             <div class="extras-box col-md-12 col-lg-12">
-                                <div class="extras-top">
+                                <div class="extras-top" data-toggle="collapse" data-target="#extras-1">
                                     <input type='checkbox' name='carpet' value='carpet' id="carpet">
                                     <label for="carpet">Carpet steam clean</label>
                                     <i class="hide-for-medium fa fa-info"></i>
                                 </div>
+                                <div id="extras-1" class="extras-bot collapse">
+                                    <div class="col-lg-4 number-box">
+                                        <button class="col-lg-4">-</button>
+                                        <input class="col-lg-4" value="1">
+                                        <button class="col-lg-4">+</button>
+                                    </div>
+                                    <span>Number of areas</span>
+                                </div>
                             </div>
                             <div class="extras-box col-md-12 col-lg-12">
-                                <div class="extras-top">
+                                <div class="extras-top" data-toggle="collapse" data-target="#extras-2">
                                     <input type='checkbox' name='wall-wash' value='wall-wash' id="wall-wash">
                                     <label for="wall-wash">Wall wash <i class="blue-default">(full wash or spot clean)</i></label>
                                     <i class="hide-for-medium fa fa-info"></i>
                                 </div>
+                                <div id="extras-2" class="extras-bot collapse">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-6">
+                                            <input type='radio' name='full-wash' value='full-wash' id="full-wash" checked>
+                                            <label for="full-wash">Full wash</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type='radio' name='spot-clean' value='spot-clean' id="spot-clean" checked>
+                                            <label for="spot-clean">Spot clean</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4 number-box">
+                                            <button class="col-lg-4">-</button>
+                                            <input class="col-lg-4" value="1">
+                                            <button class="col-lg-4">+</button>
+                                        </div>
+                                        <span>Number of walls</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="extras-box col-md-12 col-lg-12">
-                                <div class="extras-top">
+                                <div class="extras-top" data-toggle="collapse" data-target="#extras-3">
                                     <input type='checkbox' name='window-wash' value='window-wash' id="window-wash">
                                     <label for="window-wash">Window wash <i class="blue-default">(external or floor-to-ceiling)</i></label>
                                     <i class="hide-for-medium fa fa-info"></i>
                                 </div>
+                                <div id="extras-3" class="extras-bot collapse">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-6">
+                                            <input type='radio' name='external' value='external' id="external" checked>
+                                            <label for="external">External</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type='radio' name='floor-to-ceiling' value='floor-to-ceiling' id="floor-to-ceiling" checked>
+                                            <label for="floor-to-ceiling">Floor to ceiling</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4 number-box">
+                                            <button class="col-lg-4">-</button>
+                                            <input class="col-lg-4" value="1">
+                                            <button class="col-lg-4">+</button>
+                                        </div>
+                                        <span>Number of windows</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="extras-box col-md-12 col-lg-12">
-                                <div class="extras-top">
+                                <div class="extras-top" data-toggle="collapse" data-target="#extras-4">
                                     <input type='checkbox' name='deep-clean' value='deep-clean' id="deep-clean">
                                     <label for="deep-clean">Blind/shutters deep clean</label>
                                     <i class="hide-for-medium fa fa-info"></i>
                                 </div>
+                                <div id="extras-4" class="extras-bot collapse">
+                                    <div class="col-lg-4 number-box">
+                                        <button class="col-lg-4">-</button>
+                                        <input class="col-lg-4" value="1">
+                                        <button class="col-lg-4">+</button>
+                                    </div>
+                                    <span>Number of windows</span>
+                                </div>
                             </div>
                             <div class="extras-box col-md-12 col-lg-12">
-                                <div class="extras-top">
+                                <div class="extras-top" data-toggle="collapse" data-target="#extras-5">
                                     <input type='checkbox' name='appliance' value='appliance' id="appliance">
                                     <label for="appliance">Appliance deep clean</label>
                                     <i class="hide-for-medium fa fa-info"></i>
+                                </div>
+                                <div id="extras-5" class="extras-bot collapse">
+                                    <div class="col-lg-12">
+                                        <div class="appliance col-lg-12">
+                                            <input type='checkbox' name='fridge' value='fridge' id="fridge">
+                                            <label for="fridge">Fridge/Freezer</label>
+                                        </div>
+                                        <div class="appliance col-lg-12">
+                                            <input type='checkbox' name='oven' value='oven' id="oven">
+                                            <label for="oven">Oven (90cm)</label>
+                                        </div>
+                                        <div class="appliance col-lg-12">
+                                            <input type='checkbox' name='dishwasher' value='dishwasher' id="dishwasher">
+                                            <label for="dishwasher">Dishwasher</label>
+                                        </div>
+                                        <div class="appliance col-lg-12">
+                                            <input type='checkbox' name='microwave' value='microwave' id="microwave">
+                                            <label for="microwave">Microwave</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
